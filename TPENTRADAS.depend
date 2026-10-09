@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1791558891 source:d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\compras.c
+
+1791558891 source:d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\entradas.c
+
+1791558891 source:d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\establecimientos.c
+
+1791574986 source:d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\eventos.c
+	"Eventos.h"
+
+1791558891 source:d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\tp grupal.c
+	"TP Grupal.h"
+
+1791558891 d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\tp grupal.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+
+1791574986 source:d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\main.c
+	"TP Grupal.h"
+
+1791558891 d:\escritorio\topicos2026\tpentradas\t-picos---grupo-nexo\eventos.h
+
+1791558891 source:d:\escritorio\topicos2026\tpentradas\tpgruponexo\compras.c
+
+1791558891 source:d:\escritorio\topicos2026\tpentradas\tpgruponexo\entradas.c
+
+1791558891 source:d:\escritorio\topicos2026\tpentradas\tpgruponexo\establecimientos.c
+
+1791578780 source:d:\escritorio\topicos2026\tpentradas\tpgruponexo\main.c
+	"TPGrupal.h"
+	"Eventos.h"
+
+1791578628 d:\escritorio\topicos2026\tpentradas\tpgruponexo\tpgrupal.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<windows.h>
+
+1791577435 source:d:\escritorio\topicos2026\tpentradas\tpgruponexo\tpgrupal.c
+	"TPGrupal.h"
+
+1791579162 source:d:\escritorio\topicos2026\tpentradas\tpgruponexo\eventos.c
+	"Eventos.h"
+	"TPGrupal.h"
+
+1791577864 d:\escritorio\topicos2026\tpentradas\tpgruponexo\eventos.h
+

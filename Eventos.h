@@ -14,4 +14,5 @@ typedef struct{
 }tEvento;
 
 
+int AltaEvento();
 #endif // EVENTOS_H_INCLUDED

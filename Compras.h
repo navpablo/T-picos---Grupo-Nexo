@@ -1,6 +1,7 @@
 #ifndef COMPRAS_H_INCLUDED
 #define COMPRAS_H_INCLUDED
 #define MAX_ENTRADAS_POR_COMPRA 5
+
 typedef struct{
     char id[10];
     char idUsuario[9];
