@@ -15,4 +15,6 @@ typedef struct{
 
 
 int AltaEvento();
+int consultarEventos();
+void imprimirFechaHora(unsigned long long fechaHora);
 #endif // EVENTOS_H_INCLUDED
