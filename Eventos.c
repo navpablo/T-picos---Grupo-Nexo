@@ -172,16 +172,20 @@ int consultarEventos()
     printf("\n\t|||||||||||||||EVENTOS||||||||||||||||\n");
     while(!feof(pf))
     {
-        printf("\n||||||||||||||||||||||||||||||||||||||||||");
-        printf("\nID: %s",eventoActual.id);
-        printf("\nNOMBRE: %s",eventoActual.nombre);
-        printf("\nTIPO: %s",eventoActual.tipoEvento);
-        printf("\nESTADO: %d",eventoActual.estado);
-        printf("\nID ESTABLECIMIENTO: %u",eventoActual.idEstablecimiento);
-        printf("\nFECHA/HORA: ");
-        imprimirFechaHora(eventoActual.fechaHora);
+        if (eventoActual.estado == DISPONIBLE)
+        {
+            printf("\n||||||||||||||||||||||||||||||||||||||||||");
+            printf("\nID: %s",eventoActual.id);
+            printf("\nNOMBRE: %s",eventoActual.nombre);
+            printf("\nTIPO: %s",eventoActual.tipoEvento);
+            printf("\nESTADO: %d",eventoActual.estado);
+            printf("\nID ESTABLECIMIENTO: %u",eventoActual.idEstablecimiento);
+            printf("\nFECHA/HORA: ");
+            imprimirFechaHora(eventoActual.fechaHora);
+            printf("\n||||||||||||||||||||||||||||||||||||||||||");
+        }
         fread(&eventoActual,sizeof(tEvento),1,pf);
-        printf("\n||||||||||||||||||||||||||||||||||||||||||");
+
     }
 
     fclose(pf);

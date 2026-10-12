@@ -50,8 +50,8 @@ int main()
                 break;
 
             case 2: // MENÚ USER
-                printf("Escriba su ID de usuario (8 caracteres): ");
-                scanf("%s", idUsuario);
+
+                ValidarUser(idUsuario);
 
                 do {
                     printf("\n--- Menú USUARIO (%s) ---\n", idUsuario);

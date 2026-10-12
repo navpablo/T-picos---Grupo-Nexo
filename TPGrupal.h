@@ -31,5 +31,7 @@ typedef struct{
     tUbicacion ubicaciones[MAXF][MAXC];
 }tSector;
 
+int ValidarUser(char *idUsuario);
+
 
 #endif // TP_GRUPAL_H_INCLUDED
