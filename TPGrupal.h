@@ -15,6 +15,7 @@
 #define ERROR_ARCHIVO_ESCRITURA -999
 #define INSERCION_ID 999
 
+
 typedef struct{
     int fila;
     int columna;

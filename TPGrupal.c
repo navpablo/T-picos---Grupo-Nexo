@@ -15,7 +15,7 @@ int ValidarUser(char *idUsuario)
 
     do
     {
-        printf("Escriba su ID de usuario (8 caracteres):  ");
+        printf("\nEscriba su ID de usuario (8 caracteres):  ");
 
         if (fgets(ingresoId, sizeof ingresoId, stdin) == NULL)
         {
